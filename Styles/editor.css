@@ -1,0 +1,167 @@
+﻿.card
+{
+	-moz-border-radius: 0.4cm;
+	-webkit-border-radius: 0.4cm;
+	border-radius: 0.4cm;
+	height: 10.2cm;
+	width: 6cm;
+	border-width: 1px;
+	border-style: solid;
+	position: relative;
+	-moz-background-size: 102%;
+	-o-background-size: 102%;
+	-webkit-background-size: 102%;
+	background-size: 102%;
+}
+
+.card-orange
+{
+	border-color: orange;
+	background-image: url(../Images/card-orange.jpg);
+}
+
+.card-violet
+{
+	border-color: violet;
+	background-image: url(../Images/card-violet.jpg);
+}
+
+.card-blue
+{
+	border-color: blue;
+	background-image: url(../Images/card-blue.jpg);
+}
+
+.card-green
+{
+	border-color: greenyellow;
+	background-image: url(../Images/card-green.jpg);
+}
+
+/* template is hidden, clones are displayed in JS */
+#card-template
+{
+	display: none;
+}
+
+.card-designer
+{
+	float: left;
+	margin: 20px;
+}
+
+select, input {
+	margin: 5px;
+}
+
+.card .wordwrap
+{
+	height: 8.4mm;
+	position: absolute;
+	text-transform: uppercase;
+	overflow: hidden;
+	font-weight: bold;
+	vertical-align: middle;
+	font-size: 3.5mm;
+	font-family: 'Arial CE', Arial, 'Helvetica CE', Helvetica, sans-serif;
+	padding-top: 2px;
+	padding-bottom: 1px;
+}
+
+/*
+	forcing display table to achieve vertical alignment of words
+*/
+.wordwrap {
+	display: table;
+	position: relative;
+}
+
+.wordwrap div {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.card .wordwrap:nth-child(1)
+{
+	left: 16.3mm;
+	width: 3.65cm;
+	top: 12.0mm;
+	-webkit-transform: rotate(1deg);
+	-moz-transform: rotate(1deg);
+	-ms-transform: rotate(1deg);
+	-o-transform: rotate(1deg);
+	transform: rotate(1deg);
+}
+
+.card .wordwrap:nth-child(2)
+{
+	left: 17.3mm;
+	width: 3.55cm;
+	top: 23.75mm;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+}
+
+.card .wordwrap:nth-child(3)
+{
+	left: 17.3mm;
+	top: 35.3mm;
+	width: 3.55cm;
+	-webkit-transform: rotate(1.2deg);
+	-moz-transform: rotate(1.2deg);
+	-ms-transform: rotate(1.2deg);
+	-o-transform: rotate(1.2deg);
+	transform: rotate(1.2deg);
+}
+
+.card .wordwrap:nth-child(4)
+{
+	left: 17.8mm;
+	top: 46.7mm;
+	width: 3.55cm;
+	-webkit-transform: rotate(0.3deg);
+	-moz-transform: rotate(0.3deg);
+	-ms-transform: rotate(0.3deg);
+	-o-transform: rotate(0.3deg);
+	transform: rotate(0.3deg);
+}
+
+.card .wordwrap:nth-child(5)
+{
+	left: 17.8mm;
+	top: 58.0mm;
+	width: 3.52cm;
+	-webkit-transform: rotate(-0.8deg);
+	-moz-transform: rotate(-0.8deg);
+	-ms-transform: rotate(-0.8deg);
+	-o-transform: rotate(-0.8deg);
+	transform: rotate(-0.8deg);
+}
+
+.card .wordwrap:nth-child(6)
+{
+	left: 17.6mm;
+	top: 69.9mm;
+	width: 3.55cm;
+	-webkit-transform: rotate(0.4deg);
+	-moz-transform: rotate(0.4deg);
+	-ms-transform: rotate(0.4deg);
+	-o-transform: rotate(0.4deg);
+	transform: rotate(0.4deg);
+}
+
+.card .wordwrap:nth-child(7)
+{
+	left: 17.9mm;
+	top: 81.3mm;
+	width: 3.49cm;
+	-webkit-transform: rotate(1.2deg);
+	-moz-transform: rotate(1.2deg);
+	-ms-transform: rotate(1.2deg);
+	-o-transform: rotate(1.2deg);
+	transform: rotate(1.2deg);
+}
+

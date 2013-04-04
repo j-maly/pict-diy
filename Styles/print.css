@@ -1,0 +1,17 @@
+﻿input, select, h1, p {
+	display: none;
+}
+
+/*
+	I want to avoid pagebreak in print, but 
+	it does not seem to work properly
+*/
+.card-designer
+{
+	float: left;
+	margin: 5px;
+	display: block;
+	page-break-before: always; 
+	page-break-after: always; 
+	page-break-inside: avoid; 
+}

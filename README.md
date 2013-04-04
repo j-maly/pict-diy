@@ -1,4 +1,4 @@
 pict-diy
 ========
 
-SImple pictomania cards editor
+Simple Pictomania cards editor

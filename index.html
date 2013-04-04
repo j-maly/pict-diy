@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <title>Pict-DIY</title>
+	<script src="Scripts/jquery-1.7.1.js"></script>
+	<script src="Scripts/editor.js"></script>
+	<link href="Styles/editor.css" rel="stylesheet" />
+	<link href="Styles/layout.css" rel="stylesheet" />
+	<link href="Styles/print.css" rel="stylesheet" media="print" />
+</head>
+<body>
+	<h1>Pict-DIY</h1>
+	
+	<p>
+		Postup: naklikat karty, vybrat barvu, upravit slovíčka, vytisknout. 
+		Na starších prohlížečích můžou být problémy. 
+	</p>
+	<p>
+		Zkoušel bych to tisknout přes prohlížeč (ne přes printscreen), snad to funguje. 
+	</p>
+	<p>
+		Je možné, že váš prohlížeč netiskne obrázky na pozadí. V Internet Exploreru se to nastavuje takto: 1) pravým na stránku 2) Print preview... (Náhled před tiskem) 3) pak podle  
+		<a href="http://img35.imageshack.us/img35/4577/printpreview.png">tohoto obrázku</a>
+	</p>
+
+	<div id="cards">
+		<div id="card-template" class="card-designer">
+			<div class="card card-green">
+				<div class="inputs">
+				<div class="wordwrap" ><div contenteditable="true">Sem</div></div>
+					<div class="wordwrap" ><div contenteditable="true">Si</div></div>
+					<div class="wordwrap" ><div contenteditable="true">Napiš</div></div>
+					<div class="wordwrap" ><div contenteditable="true">Nějaká</div></div>
+					<div class="wordwrap" ><div contenteditable="true">Ta</div></div>
+					<div class="wordwrap" ><div contenteditable="true">Svá</div></div>
+					<div class="wordwrap" ><div contenteditable="true">Slovíčka</div></div>
+				</div>
+			</div>
+			<select class="color-switcher">
+				<option>Zelená</option>
+				<option>Oranžová</option>
+				<option>Modrá</option>
+				<option>Fialová</option>
+			</select> 
+			<br/>
+			<input type="button" class="add-card" value="Přidat kartu" />
+			<input type="button" class="remove-card" value="Smazat kartu" />
+		</div>
+	</div>
+	
+	<script>
+		$(document).ready(document_ready);
+		$.fn.exists = function () { return this.length !== 0; };
+	</script>
+</body>
+</html>
